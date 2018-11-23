@@ -8,8 +8,16 @@
 
 import UIKit
 
+let nguoidangnhap = 0
+
 class ViewController: UIViewController {
 
+    @IBAction func NguoiDangNhap(_ sender: UIButton) {
+        
+        print(sender.tag)
+        
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
